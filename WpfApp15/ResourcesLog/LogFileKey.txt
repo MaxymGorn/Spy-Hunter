@@ -1,0 +1,147 @@
+
+
+###  Logger  10800  29.04.2020 1:57:10  ###
+3
+23
+
+###  Нова вкладка - Google Chrome  23708  29.04.2020 1:57:14  ###
+3
+4f3443f3443
+
+<<<  Save screenDekstop to file: C:\Users\MAKS\Downloads\Img1.Png  29.04.2020 1:57:43  >>>
+
+
+<<<  Save screenDekstop to file: C:\Users\MAKS\Downloads\Img2.Png  29.04.2020 1:57:44  >>>
+
+
+<<<  Save screenDekstop to file: C:\Users\MAKS\Downloads\Img3.Png  29.04.2020 1:57:45  >>>
+
+
+<<<  Save screenDekstop to file: C:\Users\MAKS\Downloads\Img4.Png  29.04.2020 1:57:45  >>>
+
+
+<<<  Save screenDekstop to file: C:\Users\MAKS\Downloads\Img5.Png  29.04.2020 1:57:45  >>>
+
+
+<<<  Save screenDekstop to file: C:\Users\MAKS\Downloads\Img6.Png  29.04.2020 1:57:45  >>>
+
+
+<<<  Save screenDekstop to file: C:\Users\MAKS\Downloads\Img7.Png  29.04.2020 1:57:45  >>>
+
+
+<<<  Save screenDekstop to file: C:\Users\MAKS\Downloads\Img8.Png  29.04.2020 1:57:46  >>>
+
+
+<<<  Save screenDekstop to file: C:\Users\MAKS\Downloads\Img9.Png  29.04.2020 1:57:47  >>>
+
+
+<<<  Save screenDekstop to file: C:\Users\MAKS\Downloads\Img10.Png  29.04.2020 1:57:47  >>>
+
+
+###  Logger  10800  29.04.2020 1:57:50  ###
+3
+344ff3344ff3344ff33[F4][F4]
+
+###  Нова вкладка - Google Chrome  23708  29.04.2020 1:57:55  ###
+r
+r[F3][F3]rr[F3][F3][F4][F4]rr
+
+###  ShellExperienceHost  12424  29.04.2020 2:02:45  ###
+e
+eggeerreegg
+
+###  Logger  23920  29.04.2020 2:02:47  ###
+e
+errggeerrggeeerrrgggeeerrrgggeeerrr[F5][F5][F5][F4][F4][F4][F5][F5][F5]
+
+<<<  Save screenDekstop to file: C:\Users\MAKS\Downloads\Img4.Png  29.04.2020 2:03:17  >>>
+
+
+###  explorer  20932  29.04.2020 2:03:21  ###
+e
+eerrreee
+
+###  Logger  1104  29.04.2020 2:22:30  ###
+2
+
+
+###  Logger  13756  29.04.2020 2:24:20  ###
+e
+rf4r
+
+###  Нова вкладка - Google Chrome  24436  29.04.2020 2:24:25  ###
+e
+rgergre
+
+###  Mystat - Google Chrome  24436  29.04.2020 2:24:31  ###
+e
+rgerergreger[F3][F4][F6][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][Shift]
+
+###  chrome  24436  29.04.2020 2:24:44  ###
+A
+
+
+###  Mystat - Google Chrome  24436  29.04.2020 2:24:45  ###
+[Shift]
+s[SPACE][WIN]
+
+<<<  Save screenDekstop to file: C:\Users\MAKS\Downloads\Img0.Png  29.04.2020 2:24:57  >>>
+
+
+###  Logger  13756  29.04.2020 2:25:01  ###
+e
+er
+
+<<<  Save screenDekstop to file: C:\Users\MAKS\Downloads\Img1.Png  29.04.2020 2:25:03  >>>
+ffffee
+
+###  explorer  20932  29.04.2020 2:25:06  ###
+w
+weesssddd
+
+<<<  Save screenDekstop to file: C:\Users\MAKS\Downloads\Img2.Png  29.04.2020 2:26:20  >>>
+
+
+###  LogFileKey.txt: Блокнот  10036  29.04.2020 2:26:33  ###
+w
+ww
+
+###  *LogFileKey.txt: Блокнот  10036  29.04.2020 2:26:33  ###
+w
+wweeewwwfffwwweeefffeeewwwfff
+
+###  Нова вкладка - Google Chrome  12116  29.04.2020 2:26:46  ###
+d
+ddsssdddcccsssdddsssdddsssdddvvvsssddd[ESC][ESC][ESC]
+
+###  Mystat - Google Chrome  12116  29.04.2020 2:27:04  ###
+w
+wweeefffeeewwwfff[Shift][Shift][Shift]MMMcccwwwfff[ENTER][ENTER][ENTER]
+
+###  explorer  20932  29.04.2020 2:27:10  ###
+[CTRL]
+[CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL]
+
+###  Logger  13756  29.04.2020 2:27:17  ###
+e
+eerrrfffrrreee
+
+###  Нова вкладка - Google Chrome  17784  29.04.2020 23:57:06  ###
+d
+[ENTER]erger
+
+###  Mystat - Google Chrome  17784  29.04.2020 23:57:23  ###
+[ENTER]
+
+
+###  Нова вкладка - Google Chrome  17784  29.04.2020 23:57:27  ###
+w
+ef[ENTER]
+
+###  Instagram  1252  02.05.2020 9:45:05  ###
+s
+dv[ENTER]
+
+###  WpfApp15 - Microsoft Visual Studio Preview  4052  02.05.2020 9:45:58  ###
+[CTRL]
+[ENTER][CTRL][SPACE][CTRL][SPACE][Shift]T[Back][CTRL][CTRL][CTRL][F5]

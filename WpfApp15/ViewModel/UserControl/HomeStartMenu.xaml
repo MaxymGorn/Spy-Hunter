@@ -1,0 +1,109 @@
+﻿<UserControl x:Class="WpfApp15.ViewModel.UserControl.HomeStartMenu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schema s.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp15.ViewModel.UserControl"
+             mc:Ignorable="d"   d:DesignHeight="310" d:DesignWidth="740"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             >
+    <Grid Height="315" MinHeight="315" MinWidth="740" Width="740">
+        <materialDesign:TransitioningContent x:Name="TrainsitionigContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft, Duration=0:0:0.9}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Border Background="{Binding ElementName=StatGr,Path=Background}"
+                        BorderBrush="Silver" BorderThickness="2,9,5,8.19" CornerRadius="9,9,10,7"
+                        Grid.Column="0" MinHeight="300"  Margin="10">
+                    <Grid x:Name="StatGr" Background="#FFF3F3F3" Margin="3">
+                        <Grid.Effect>
+                            <DropShadowEffect BlurRadius="20" Color="#FFDEDEDE" ShadowDepth="1"/>
+                        </Grid.Effect>
+
+                        <StackPanel Width="200">
+                            <TextBlock Margin="10,10,51,10" FontFamily="Gill Sans Ultra Bold" FontSize="14" Text="Учёт" Foreground="#FFC00000"/>
+                            <Image Source="/WpfApp15;component/ViewModel/Images/завантаження.jpg" Height="150" Stretch="UniformToFill" Margin="0,0,46,0" />
+                            <TextBlock FontSize="8" Margin="5,5,51,5" TextWrapping="Wrap" FontFamily="Champagne &amp; Limousines" Height="40">
+                             Приложение анализирует, записывает информацию
+о всех нажатиях клавиш, приложениях в файл отчета. А также закрывает запрещенную программу.
+                            </TextBlock>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="15,-10,51,0" Width="134">
+                                <Image Width="35"  Source="/WpfApp15;component/ViewModel/Images/statics-analytics-market-data-research-performance-graph-chart-7-24988.png"/>
+                                <Button Width="75" Command="{Binding ChangeTabControlStat}" Content="Перейти" FontSize="9" FontFamily="Arial Black" Margin="10" FontWeight="Bold"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Grid>
+                </Border>
+                <Border Background="{Binding ElementName=StatGr,Path=Background}"
+                        BorderBrush="Silver" BorderThickness="2,9,5,8.19" CornerRadius="9,9,10,7"
+                        Grid.Column="1" MinHeight="300"  Margin="10">
+                    <Grid  Background="#FFF3F3F3" Margin="3">
+                        <Grid.Effect>
+                            <DropShadowEffect BlurRadius="20" Color="#FFDEDEDE" ShadowDepth="1"/>
+                        </Grid.Effect>
+
+                        <StackPanel Width="200">
+                            <TextBlock Margin="10,10,53,10" FontFamily="Gill Sans Ultra Bold" FontSize="14" Text="Логирования" Foreground="#FFC00000"></TextBlock>
+                            <Image Source="/WpfApp15;component/ViewModel/Images/20191104224338_5708.jpg" Height="150" Stretch="UniformToFill" Margin="0,0,48,0" />
+                            <TextBlock FontSize="8" Margin="5,5,53,5" TextWrapping="Wrap" FontFamily="Champagne &amp; Limousines">
+Пользователь может просмотреть информацию
+о клиентах и управлять ими, сохранить информация в Google Drive и базу данных.
+                            </TextBlock>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="20,-8,48,0" Width="132">
+                                <Image Width="35"  Source="/WpfApp15;component/ViewModel/Images/Teleconference.png"/>
+                                <Button Width="75" Command="{Binding ChangeTabControlLogger}" Content="Перейти" FontFamily="Arial Black" Margin="10" FontSize="9" FontWeight="Bold"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Grid>
+                </Border>
+                <Border Background="{Binding ElementName=StatGr,Path=Background}"
+                        BorderBrush="Silver" BorderThickness="2,9,5,8.19" CornerRadius="9,9,10,7"
+                        Grid.Column="2" MinHeight="300"  Margin="10">
+                    <Grid Background="#FFF3F3F3" Margin="3">
+                        <Grid.Effect>
+                            <DropShadowEffect BlurRadius="20" Color="#FFDEDEDE" ShadowDepth="1"/>
+                        </Grid.Effect>
+
+                        <StackPanel Width="200">
+                            <TextBlock Margin="10,10,48,10" FontFamily="Gill Sans Ultra Bold" FontSize="14" Text="Отчет" Foreground="#FFC00000"></TextBlock>
+                            <Image Source="/WpfApp15;component/ViewModel/Images/unnamed.jpg" Height="150" Stretch="UniformToFill" Margin="0,0,48,0" />
+                            <TextBlock FontSize="8" Margin="5,5,54,5" TextWrapping="Wrap" FontFamily="Champagne &amp; Limousines" Height="36">
+                           Пользователь может просмотреть информацию
+о клавишах и процессах
+                            </TextBlock>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="15,-5,54,0" Width="131">
+                                <Image Width="35"  Source="/WpfApp15;component/ViewModel/Images/investicii-otchet-v2.png"/>
+                                <Button Width="75" Command="{Binding ChangeTabControlOtchet}" Content="Перейти" FontFamily="Arial Black" Margin="10" FontSize="9" FontWeight="Bold"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Grid>
+                </Border>
+                <Border Background="{Binding ElementName=StatGr,Path=Background}"
+                        BorderBrush="Silver" BorderThickness="2,9,5,8.19" CornerRadius="9,9,10,7"
+                        Grid.Column="3" MinHeight="300"  Margin="10">
+                    <Grid  Background="#FFF3F3F3" Margin="3">
+                    <Grid.Effect>
+                        <DropShadowEffect BlurRadius="20" Color="#FFDEDEDE" ShadowDepth="1"/>
+                    </Grid.Effect>
+
+                    <StackPanel Width="200">
+                        <TextBlock Margin="10,10,49,10" FontFamily="Gill Sans Ultra Bold" FontSize="14" Text="Настройки" Foreground="#FFC00000"></TextBlock>
+                        <Image Source="/WpfApp15;component/ViewModel/Images/images (1).jpg" Height="150" Stretch="UniformToFill" Margin="0,0,43,0" />
+                        <TextBlock FontSize="8" Margin="5,5,49,5" TextWrapping="Wrap" FontFamily="Champagne &amp; Limousines" Height="36">
+                           Позволяет пользователю настроить опции для слежения.
+                        </TextBlock>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="20,-5,49,0" Width="131">
+                            <Image Width="35"  Source="/WpfApp15;component/ViewModel/Images/images (1).jpg"/>
+                            <Button Width="75" Command="{Binding ChangeTabControlSettings}" Content="Перейти" FontFamily="Arial Black" Margin="10" FontWeight="Bold" FontSize="9"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+                </Border>
+            </Grid>
+        </materialDesign:TransitioningContent>
+    </Grid>
+</UserControl>

@@ -1,0 +1,645 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WPFluent.App" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfApp15.Migrations.AddAzureMigration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\202006072115409_AddAzureMigration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfApp15.Migrations.Configuration" Collapsed="true">
+    <Position X="37.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Migrations\Configuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.Previewscreen.PreviewScreen" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Previewscreen\PreviewScreen.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfApp15.Properties.Resources" Collapsed="true">
+    <Position X="28.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQQAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.Properties.Settings" Collapsed="true">
+    <Position X="28.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaRat.Classes.AutoClosingMessageBox" Collapsed="true">
+    <Position X="35.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAgICAAACACAAAAAAAABEAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Scripts\ClassesServer\AutoClosingMsgBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaRat.Classes.Builder" Collapsed="true">
+    <Position X="40.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scripts\ClassesServer\Builder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaRat.Classes.Notification" Collapsed="true">
+    <Position X="35.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAACAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scripts\ClassesServer\Notification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaRat.Classes.Server" Collapsed="true">
+    <Position X="39" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scripts\ClassesServer\Server.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaRat.Classes.Settings" Collapsed="true">
+    <Position X="40.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scripts\ClassesServer\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaRat.Classes.TempDataHelper" Collapsed="true">
+    <Position X="32" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAA=</HashCode>
+      <FileName>Scripts\ClassesServer\TempDataHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telepathy.Client" Collapsed="true">
+    <Position X="4.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAACBQAACAEAAAIAAAAAACAAAAIAABAEAAAA=</HashCode>
+      <FileName>Scripts\ClassesServer\Telepathy\ClientServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telepathy.Common" Collapsed="true">
+    <Position X="6" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIIAAAAEAAAgAgAACAAgAAAghQAAAAAA=</HashCode>
+      <FileName>Scripts\ClassesServer\Telepathy\Common.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telepathy.Logger" Collapsed="true">
+    <Position X="30.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAIAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scripts\ClassesServer\Telepathy\Logger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telepathy.Message" Collapsed="true">
+    <Position X="40.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAIAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Scripts\ClassesServer\Telepathy\Message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telepathy.NetworkStreamExtensions" Collapsed="true">
+    <Position X="33.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Scripts\ClassesServer\Telepathy\NetworkStreamExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telepathy.SafeQueue&lt;T&gt;" Collapsed="true">
+    <Position X="32" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAABAAAAAAAAAAJAAAQAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Scripts\ClassesServer\Telepathy\SafeQueue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telepathy.Server" Collapsed="true">
+    <Position X="7" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAFAAAEAAAAAgAIAAQAEgIAAIAAAAAAA=</HashCode>
+      <FileName>Scripts\ClassesServer\Telepathy\Server.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telepathy.Utils" Collapsed="true">
+    <Position X="39" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Scripts\ClassesServer\Telepathy\Utils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.Command.ClearLogCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Scripts\Command\ClearLogCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TaskManager.Command.RelayCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAEAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scripts\Command\RelayCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TaskManager.Command.RelayCommand2" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQEACAAQAAECAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scripts\Command\RelayCommand2.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TaskManager.Command.RelayCommand&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQEACAAQAAECAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scripts\Command\RelayCommand2.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TaskManager.Command.WeakAction" Collapsed="true">
+    <Position X="7.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAACAAAAAAAQIAAAgACAIAIAAEAEAAAACAAAAAAA=</HashCode>
+      <FileName>Scripts\Command\WeakAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskManager.Command.WeakAction&lt;T&gt;" Collapsed="true">
+    <Position X="7.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAQAAAAAAAEAAAAAEAEAAAACAAAAAAA=</HashCode>
+      <FileName>Scripts\Command\WeakAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskManager.Command.WeakFunc&lt;TResult&gt;" Collapsed="true">
+    <Position X="4.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQgAAACAAAAAAAQAACAgACAIAAAAAAEAAAACAAAAAAI=</HashCode>
+      <FileName>Scripts\Command\WeakFunc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskManager.Command.WeakFunc&lt;T, TResult&gt;" Collapsed="true">
+    <Position X="4.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAQAAAAAAAEAAAAAAAEAAAACAAAAAAI=</HashCode>
+      <FileName>Scripts\Command\WeakFunc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.Scripts.Other.ForEachAsyncExtension" Collapsed="true">
+    <Position X="35.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Scripts\Extension\ForEachAsyncExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.Scripts.Other.ObserveColectionExtensions" Collapsed="true">
+    <Position X="37.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scripts\Extension\ObserveColectionExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.Scripts.Other.SenterGoogleDrive" Collapsed="true">
+    <Position X="37.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAABAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scripts\Other\SenterGoogleDrive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.Scripts.ProcessExtensions" Collapsed="true">
+    <Position X="28.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAEAAAAAAAACAAAACAAAIAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scripts\Extension\ProcessExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.Scripts.BrowserModel" Collapsed="true">
+    <Position X="12.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAIAAABCAAAAAAAAAA=</HashCode>
+      <FileName>Scripts\Model\Program\BrowserModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.Scripts.ClientIdConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scripts\Value Converts\ClientIdConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TaskManager.UIHelper" Collapsed="true">
+    <Position X="33.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scripts\Helper\UIHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskManager.ViewModel" Collapsed="true">
+    <Position X="19.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>NWmEiB0gCujqVIIs+yUMeMMjpKXoI1GFqIJxLGRrYD4=</HashCode>
+      <FileName>Scripts\Model\Program\ViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskManager.ViewModelProc" Collapsed="true">
+    <Position X="8" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCEAMAAVAAAIAAgADIBCKAUBAAgBAQgAEQAIgAoACIA=</HashCode>
+      <FileName>Scripts\Model\Program\ViewModelProc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.ApplicationEntry" Collapsed="true">
+    <Position X="32" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAIAAAAAAAAAAAAAAAAAAABAAAAQA=</HashCode>
+      <FileName>Scripts\Main\ApplicationEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.Model.Files" Collapsed="true">
+    <Position X="33.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAACAAgAAAAAAAQAAAAAAAAAAgA=</HashCode>
+      <FileName>Scripts\Model\Db\Files.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.Model.InfoPc" Collapsed="true">
+    <Position X="39" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgCAAAAggAAAIACAAAAgAAAIAQAACAAAAAAAAAgA=</HashCode>
+      <FileName>Scripts\Model\Db\InfoPc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.Model.LogText" Collapsed="true">
+    <Position X="37.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAASAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Scripts\Model\Db\LogText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.Model.ModelDb" Collapsed="true">
+    <Position X="28.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAIAAAAAEAAAAAAAAAgAAAAAAIA=</HashCode>
+      <FileName>Scripts\Model\Db\ModelDb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.Model.User" Collapsed="true">
+    <Position X="35.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAIAAAAAAAAAAAAAAAgAAAAAAoA=</HashCode>
+      <FileName>Scripts\Model\Db\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.Scripts.Model.Program.AppClientModel" Collapsed="true">
+    <Position X="14.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEBAABgAAAAAAAAAAAAAAAABIBAAAAAEAIA=</HashCode>
+      <FileName>Scripts\Model\Program\AppClientModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.Scripts.Model.Program.AudioModel" Collapsed="true">
+    <Position X="17" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEABAAAgAAAABEAAAAgAAAAIAIAIAAQAKAAAAAAAAUA=</HashCode>
+      <FileName>Scripts\Model\Program\AudioModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.Scripts.Model.Program.ChatWindowModel" Collapsed="true">
+    <Position X="21.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAICAAAACAAAAAAAAAAAAAIAAAACAAAAAA=</HashCode>
+      <FileName>Scripts\Model\Program\ChatWindowModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.Scripts.Model.Program.ComputerInfoModel" Collapsed="true">
+    <Position X="23.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAIBAAAEAAAAA=</HashCode>
+      <FileName>Scripts\Model\Program\ComputerInfoModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.Scripts.Model.Program.DbViewModel" Collapsed="true">
+    <Position X="26" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAgQAAAQAAAAEAAAAAAAAABAAAQgAAAAAAAAAIA=</HashCode>
+      <FileName>Scripts\Model\Program\DbViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.Scripts.Model.Program.ProcessItem" Collapsed="true">
+    <Position X="32" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAICAAAAQAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scripts\Model\Program\ProcessItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.Scripts.Model.Program.RemoteDekstopModel" Collapsed="true">
+    <Position X="10.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAgAQAABQmAQAEAAEQAAAAAAkAAgAAAAAACAAA=</HashCode>
+      <FileName>Scripts\Model\Program\RemoteDekstopModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.Scripts.Model.Program.StringValue" Collapsed="true">
+    <Position X="30.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAQAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scripts\Model\Program\StringValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.ViewModel.BedProgram" Collapsed="true">
+    <Position X="37.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAABAIAEAAAQAgAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Scripts\Model\Program\BedProgram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.ViewModel.ExpressionHelpers" Collapsed="true">
+    <Position X="30.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Scripts\Model\Program\MainViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.ViewModel.BaseViewModel" Collapsed="true">
+    <Position X="15.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAIAAAAAAAgAIAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Scripts\Model\Program\MainViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WpfApp15.ViewModel.WindowResizer" Collapsed="true">
+    <Position X="40.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgBDACQEABAAQAICAIAAIEAEABoACAAAACQIAAAAAAA=</HashCode>
+      <FileName>Scripts\Model\Program\MainViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.ViewModel.MainViewModel" Collapsed="true">
+    <Position X="18" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwkBGAEAFAgIBAQAggGQQEIACARAAgYAhJJBAgAmAAQ=</HashCode>
+      <FileName>Scripts\Model\Program\MainViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.ViewModel.ProcessListItem" Collapsed="true">
+    <Position X="33.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAAAEAIAAAAIgEAQEAAoAQEAAAAIAQAAABAAIA=</HashCode>
+      <FileName>Scripts\Model\Program\ProcessListItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.ViewModel.ListExtra" Collapsed="true">
+    <Position X="40.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Scripts\Other\LoggerKeys.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.ViewModel.LoggerKeys" Collapsed="true">
+    <Position X="32" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CMABABAAAAAAAAAAEBEALCQCAAIAACgAAAAAEBEwQGI=</HashCode>
+      <FileName>Scripts\Other\LoggerKeys.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.ViewModel.ScreenShot" Collapsed="true">
+    <Position X="33.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAGEIAAQAAACASAIEUAACAAQEgAAAARoAAAAABAAAA=</HashCode>
+      <FileName>Scripts\Other\ScreenShot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.ViewModel.ScreenShotInfo" Collapsed="true">
+    <Position X="35.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAgAAAAAAAAAAIABAAAA=</HashCode>
+      <FileName>Scripts\Other\ScreenShot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.ViewModel.LogServer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\LogServer.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfApp15.ViewModel.MainMenu" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgBAAwAAAAAAAAAAAAAgAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\MainMenu.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfApp15.Model.Program.Client" Collapsed="true">
+    <Position X="32" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAgAIAAAAAAAAIAAAAAAAgAAAEAAAAAAAAAACAAA=</HashCode>
+      <FileName>Scripts\Model\Program\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.Model.Program.ModelLogin" Collapsed="true">
+    <Position X="5.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAEAiAAAAAAAAAAAAAAAABAAEAAACAAAgA=</HashCode>
+      <FileName>Scripts\Model\Program\ModelLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CpuGpuGraph.CpuModel" Collapsed="true">
+    <Position X="39" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DKIAAAAREUABEAhgIiEAQAgolAwoACARAAICAEAEABM=</HashCode>
+      <FileName>Scripts\Model\Program\CpuModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MaxsGorn.MouseBehaviour" Collapsed="true">
+    <Position X="30.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQFAAAAAAAQAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scripts\Other\MouseBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MaxsGorn.BaseValueConverter&lt;T&gt;" Collapsed="true">
+    <Position X="9.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAQAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scripts\Value Converts\BaseValueConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MaxsGorn.BooleanToBorderThicknessConverter" Collapsed="true">
+    <Position X="9.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scripts\Value Converts\BooleanToBorderThicknessConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MaxsGorn.BorderClipConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scripts\Value Converts\BorderClipConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MaxsGorn.NamePattern" Collapsed="true">
+    <Position X="32" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAgIAAAIAAAAQACBNAAwAAQBACAAIgEAAQAAAQAQAA=</HashCode>
+      <FileName>Scripts\Value Converts\NamePattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp15.Scripts.Value_Converts.EmailConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scripts\Value Converts\EmailConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfApp15.Scripts.Value_Converts.RoundTimeConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scripts\Value Converts\RoundTimeConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfApp15.ViewModel.UserControl.AudioRecorder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\UserControl\AudioRecorder.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfApp15.ViewModel.UserControl.ChatWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\UserControl\ChatWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfApp15.ViewModel.UserControl.ComputerInformation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\UserControl\ComputerInformation.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfApp15.ViewModel.UserControl.DbFiles" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\UserControl\DbFiles.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfApp15.ViewModel.UserControl.FileExploer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\UserControl\FileExploer.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfApp15.ViewModel.UserControl.HomeStartMenu" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\UserControl\HomeStartMenu.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfApp15.ViewModel.UserControl.LogerServer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\UserControl\LogerServer.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfApp15.ViewModel.UserControl.LoginUi" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\UserControl\LoginUi.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfApp15.ViewModel.UserControl.OpenUrl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\UserControl\OpenUrl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfApp15.ViewModel.UserControl.ProcessForm" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\UserControl\ProcessForm.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfApp15.ViewModel.UserControl.RemoteDekstop" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\UserControl\RemoteDekstop.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfApp15.ViewModel.UserControl.UserControlSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\UserControl\UserControlSettings.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Enum Name="Telepathy.EventType" Collapsed="true">
+    <Position X="28.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAABAAAAAAAgAAAAA=</HashCode>
+      <FileName>Scripts\ClassesServer\Telepathy\EventType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WpfApp15.ViewModel.WindowDockPosition" Collapsed="true">
+    <Position X="30.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAIAAAAABAAAABAAAAAAAIAAAAACACAAAAAAEA=</HashCode>
+      <FileName>Scripts\Model\Program\MainViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="MaxsGorn.PatternEventHandler" Collapsed="true">
+    <Position X="28.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scripts\Value Converts\NamePattern.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

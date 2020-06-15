@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  >
+    <LinearGradientBrush x:Key="btn_1">
+        <GradientStop Color="White" Offset="0.0" />
+    </LinearGradientBrush>
+    
+    <LinearGradientBrush x:Key="btn_2">
+        <GradientStop Color="#FF3580BF" Offset="0.0" />
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="text_brush1">
+        <GradientStop Color="#FF3580BF" Offset="0.0" />
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="text_brush2">
+        <GradientStop Color="White" Offset="0.0" />
+    </LinearGradientBrush>
+</ResourceDictionary>

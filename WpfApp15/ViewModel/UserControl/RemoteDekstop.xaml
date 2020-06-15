@@ -1,0 +1,166 @@
+﻿<Window x:Class="WpfApp15.ViewModel.UserControl.RemoteDekstop" x:Name="win"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp15.ViewModel.UserControl"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" 
+        xmlns:local11="clr-namespace:MaxsGorn"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" 
+        xmlns:command1="http://www.galasoft.ch/mvvmlight"
+        xmlns:local3="clr-namespace:MaxsGorn"
+        mc:Ignorable="d"
+        Title="RemoteDekstop"         
+        MinWidth="{Binding WindowMinimumWidth}"
+        MinHeight="{Binding WindowMinimumHeight}"
+        Width ="1024" Height="550" AllowsTransparency="True"
+        xmlns:local2="clr-namespace:TaskManager"
+        WindowStyle="None"  WindowStartupLocation="CenterScreen">
+  <i:Interaction.Triggers>
+    <i:EventTrigger EventName="Closing">
+      <command1:EventToCommand Command="{Binding CloseRemoteWindowCommand}" />
+    </i:EventTrigger>
+  </i:Interaction.Triggers>
+    <Window.Resources>
+        <Style TargetType="{x:Type local:RemoteDekstop}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Window}">
+                        <!-- Outer border with the drop shadow margin -->
+                        <Border Padding="{Binding OuterMarginSize, FallbackValue=0}" BorderBrush="{StaticResource ForegroundDarkBrush}" BorderThickness="{Binding FlatBorderThickness}">
+
+                            <!-- Main window outline -->
+                            <Grid>
+
+                                <!-- Outer dragging border -->
+                                <Border BorderThickness="{Binding BeingMoved, Converter={local11:BooleanToBorderThicknessConverter}}"
+                                        Panel.ZIndex="2"
+                                        CornerRadius="{Binding WindowCornerRadius, FallbackValue=10}"
+                                        BorderBrush="{StaticResource WordOrangeBrush}" />
+                                <!-- Opacity mask for corners on grid -->
+                                <Border x:Name="Container"
+                                        Background="{StaticResource BackgroundLightBrush}"
+                                        CornerRadius="{Binding WindowCornerRadius, FallbackValue=10}" />
+
+                                <!-- Window border and drop shadow -->
+                                <Border CornerRadius="{Binding WindowCornerRadius, FallbackValue=10}"
+                                    Background="{StaticResource ForegroundLightBrush}">
+                                    <Border.Effect>
+                                        <DropShadowEffect ShadowDepth="0.5" Opacity="0.2" />
+                                    </Border.Effect>
+                                </Border>
+
+                                <!-- The main window content -->
+                                <Grid>
+
+                                    <!-- Corner clipping -->
+                                    <Grid.OpacityMask>
+                                        <VisualBrush Visual="{Binding ElementName=Container}" />
+                                    </Grid.OpacityMask>
+
+                                    <Grid.RowDefinitions>
+
+                                        <!-- Title Bar -->
+                                        <RowDefinition Height="{Binding TitleHeightGridLength, FallbackValue=42}" />
+
+                                        <!-- Window Content -->
+                                        <RowDefinition Height="*" />
+
+                                    </Grid.RowDefinitions>
+
+                                    <!-- Title Bar -->
+                                    <Grid Grid.Column="0"  Background="{DynamicResource btn_2}">
+
+                                        <Grid.ColumnDefinitions>
+                                            <!-- Icon -->
+                                            <ColumnDefinition Width="355*"  />
+                                            <!-- Title -->
+                                            <ColumnDefinition Width="231*"  />
+                                            <!-- Windows Button -->
+                                            <ColumnDefinition x:Name="col1"  MinWidth="263.2" Width="431*" />
+
+                                        </Grid.ColumnDefinitions>
+                                        <StackPanel WindowChrome.IsHitTestVisibleInChrome="True" HorizontalAlignment="Left"  Grid.Column="1" Background="Transparent" Orientation="Horizontal" Grid.ColumnSpan="2" Margin="22.8,0,0,-0.4" Width="536">
+                                            <TextBlock Foreground="White" Text="Удаленный рабочий стол" Margin="10,0"  VerticalAlignment="Center" FontSize="20" FontFamily="Goudy Stout"/>
+                                        </StackPanel>
+                                        <Grid  Grid.Column="2"  Margin="5.6,0,-0.4,-0.4">
+                                            <StackPanel  Orientation="Horizontal" VerticalAlignment="Top" Height="40" HorizontalAlignment="Right" Width="91" >
+                                                <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"
+                                                Command="{Binding MinimizeCommand}"  WindowChrome.IsHitTestVisibleInChrome="True"
+                                                Width="30" Height="30" Padding="0"
+                                                        Background="{x:Null}" BorderBrush="{x:Null}">
+                                                    <materialDesign:PackIcon Kind="WindowMinimize"/>
+                                                </Button>
+                                                <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"
+                                                        WindowChrome.IsHitTestVisibleInChrome="True"
+                                            Width="30" Height="30"
+                                                        Padding="0" Background="{x:Null}" BorderBrush="{x:Null}"
+                                            Command="{Binding MaximizeCommand}" >
+                                                    <materialDesign:PackIcon Kind="WindowMaximize"/>
+                                                </Button>
+                                                <Button ToolTip="Закрыть программу"
+                                                         WindowChrome.IsHitTestVisibleInChrome="True"
+                                                        x:Name="ButtonClose"
+                                                        Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"
+                                                        Width="30" Height="30" Padding="0"
+                                                        Background="{x:Null}" BorderBrush="{x:Null}"
+                                                Command="{Binding CloseCommand}">
+                                                    <materialDesign:PackIcon Kind="Power"/>
+                                                </Button>
+                                            </StackPanel>
+                                        </Grid>
+                                    </Grid>
+                                    <!-- Page Content -->
+                                    <Border Grid.Row="1" Padding="{Binding InnerContentPadding}" ClipToBounds="True">
+                                        <ContentPresenter Content="{TemplateBinding Content}" />
+                                    </Border>
+                                </Grid>
+                            </Grid>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <WindowChrome.WindowChrome>
+
+    <WindowChrome
+        ResizeBorderThickness="{Binding ResizeBorderThickness}" 
+        CaptionHeight="{Binding TitleHeight}"
+        CornerRadius="0"
+        GlassFrameThickness="0"/>
+  </WindowChrome.WindowChrome>
+  <Grid>
+
+        <Image MinHeight="{Binding ImageHeight}" Height="{Binding ImageHeight}"
+               MinWidth="{Binding ImageWidth}" Width="{Binding ImageWidth}"
+               Cursor="{Binding Cursor}"  Source="{Binding ImageSource}" Margin="0,50,0,0" >
+      <Image.InputBindings>
+                <MouseBinding MouseAction="LeftDoubleClick" Command="{Binding MouseDoubleClickImage}"/>
+                <MouseBinding MouseAction="RightDoubleClick" Command="{Binding MouseDoubleClickImage}"/>
+                <MouseBinding MouseAction="LeftClick" Command="{Binding MouseClickLeftImage}"/>
+                <MouseBinding MouseAction="RightClick" Command="{Binding MouseClickRightImage}"/>
+      </Image.InputBindings>
+            <i:Interaction.Behaviors>
+                <local11:MouseBehaviour MouseX="{Binding MouseX, Mode=OneWayToSource}"
+                                        MouseY="{Binding MouseY, Mode=OneWayToSource}" />
+            </i:Interaction.Behaviors>
+        </Image>
+    <Button Height="50" Width="50" HorizontalAlignment="Center"  VerticalAlignment="Top">
+      <i:Interaction.Triggers>
+        <i:EventTrigger EventName="PreviewMouseDown">
+          <i:InvokeCommandAction Command="{Binding DownButton}" />
+        </i:EventTrigger>
+      </i:Interaction.Triggers>
+      <Button.Resources>
+        <Style TargetType="Border">
+          <Setter Property="CornerRadius" Value="10"/>
+        </Style>
+      </Button.Resources>
+      <Button.Background>
+        <ImageBrush ImageSource="/WpfApp15;component/ViewModel/Images/Mouse_48px.png"/>
+      </Button.Background>
+    </Button>
+
+  </Grid>
+</Window>
