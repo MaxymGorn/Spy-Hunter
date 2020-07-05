@@ -257,15 +257,6 @@
     </Compile>
     <Compile Include="Scripts\ClassesServer\Server.cs" />
     <Compile Include="Scripts\ClassesServer\Settings.cs" />
-    <Compile Include="Scripts\ClassesServer\Telepathy\ClientServer.cs" />
-    <Compile Include="Scripts\ClassesServer\Telepathy\Common.cs" />
-    <Compile Include="Scripts\ClassesServer\Telepathy\EventType.cs" />
-    <Compile Include="Scripts\ClassesServer\Telepathy\Logger.cs" />
-    <Compile Include="Scripts\ClassesServer\Telepathy\Message.cs" />
-    <Compile Include="Scripts\ClassesServer\Telepathy\NetworkStreamExtensions.cs" />
-    <Compile Include="Scripts\ClassesServer\Telepathy\SafeQueue.cs" />
-    <Compile Include="Scripts\ClassesServer\Telepathy\Server.cs" />
-    <Compile Include="Scripts\ClassesServer\Telepathy\Utils.cs" />
     <Compile Include="Scripts\ClassesServer\TempDataHelper.cs" />
     <Compile Include="Scripts\Command\ClearLogCommand.cs" />
     <Compile Include="Scripts\Main\ApplicationEntry.cs" />
@@ -439,7 +430,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="bin\Debug\credentials.json" />
     <None Include="ClassDiagramServer.cd" />
     <Resource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
@@ -508,8 +498,12 @@
     <Resource Include="ViewModel\Images\Logo.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\VanillaStub\Client.csproj">
-      <Project>{A593FCD2-C8AB-45F6-9AEB-8AB5E20AB402}</Project>
+    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
+      <Project>{97bdc6ac-7bef-49e9-ad4f-c0e41e1ef334}</Project>
+      <Name>ClassLibrary1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Client\Client.csproj">
+      <Project>{a593fcd2-c8ab-45f6-9aeb-8ab5e20ab402}</Project>
       <Name>Client</Name>
     </ProjectReference>
     <ProjectReference Include="..\WindowsFormsApp1\MessageWindows.csproj">
@@ -557,7 +551,6 @@
     <Resource Include="ViewModel\Images\microphone.gif" />
     <Resource Include="ViewModel\Images\Stop-Pressed-icon.png" />
     <Resource Include="ViewModel\Images\play.png" />
-    <Content Include="ViewModel\nvGpuLoad_x86.dll" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.8">

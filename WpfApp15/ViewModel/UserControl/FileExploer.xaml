@@ -25,7 +25,7 @@
                             <TextBlock Foreground="Red" Text="Обновить"></TextBlock>
                         </MenuItem.Header>
                         <MenuItem.Icon>
-                            <Image Source="/Logger;component/ViewModel/Images/Restart_48px.png" />
+                            <Image Source="/WpfApp15;component/ViewModel/Images/Restart_48px.png" />
                         </MenuItem.Icon>
                     </MenuItem>
                     <MenuItem>
@@ -33,7 +33,7 @@
                             <TextBlock Foreground="Red" Text="Скачать файл"></TextBlock>
                         </MenuItem.Header>
                         <MenuItem.Icon>
-                            <Image Source="/Logger;component/ViewModel/Images/Download_48px.png" />
+                            <Image Source="/WpfApp15;component/ViewModel/Images/Download_48px.png" />
                         </MenuItem.Icon>
                     </MenuItem>
                     <MenuItem>
@@ -41,7 +41,7 @@
                             <TextBlock Foreground="Red" Text="Загрузить файл"></TextBlock>
                         </MenuItem.Header>
                         <MenuItem.Icon>
-                            <Image Source="/Logger;component/ViewModel/Images/Upload_48px.png" />
+                            <Image Source="/WpfApp15;component/ViewModel/Images/Upload_48px.png" />
                         </MenuItem.Icon>
                     </MenuItem>
                     <MenuItem>
@@ -49,7 +49,7 @@
                             <TextBlock Foreground="Red" Text="Удалить файл"></TextBlock>
                         </MenuItem.Header>
                         <MenuItem.Icon>
-                            <Image Source="/Logger;component/ViewModel/Images/Close Window_48px.png" />
+                            <Image Source="/WpfApp15;component/ViewModel/Images/Close Window_48px.png" />
                         </MenuItem.Icon>
                     </MenuItem>
 

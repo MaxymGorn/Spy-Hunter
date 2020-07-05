@@ -10,7 +10,7 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Threading;
 using TaskManager.Command;
-using VanillaRat.Classes;
+using Serverr = Server.Server;
 using WpfApp15.Scripts.Other;
 using WpfApp15.ViewModel;
 
@@ -20,13 +20,13 @@ namespace WpfApp15.Scripts.Model.Program
     {
         public ChatWindowModel(Window window):base(window)
         {
-            Server.MainServer.Send(TaskManager.ViewModel.selectedData.Id, Encoding.ASCII.GetBytes("[<MESSAGE>]Opened chat"));
-            CloseChatWindowCommand = new RelayCommand2(async () => {await Task.Run(()=> Server.MainServer.Send(TaskManager.ViewModel.selectedData.Id, Encoding.ASCII.GetBytes("CloseChat"))); TaskManager.ViewModel.ChatActive = false; });
+            Serverr.MainServer.Send(TaskManager.ViewModel.selectedData.Id, Encoding.ASCII.GetBytes("[<MESSAGE>]Opened chat"));
+            CloseChatWindowCommand = new RelayCommand2(async () => {await Task.Run(()=> Serverr.MainServer.Send(TaskManager.ViewModel.selectedData.Id, Encoding.ASCII.GetBytes("CloseChat"))); TaskManager.ViewModel.ChatActive = false; });
             SendMessage = new RelayCommand2(async () => { await SentAsync();  });
         }
         private async Task SentAsync()
         {
-            Server.MainServer.Send(TaskManager.ViewModel.selectedData.Id, Encoding.ASCII.GetBytes("[<MESSAGE>]" + Text));
+            Serverr.MainServer.Send(TaskManager.ViewModel.selectedData.Id, Encoding.ASCII.GetBytes("[<MESSAGE>]" + Text));
             await Items.AddAsync(new StringValue() { Name= "Ты: " + Text });
             Text = "";
         }

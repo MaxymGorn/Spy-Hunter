@@ -64,7 +64,7 @@
       <FileName>Scripts\ClassesServer\Notification.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="VanillaRat.Classes.Server" Collapsed="true">
+  <Class Name="Server.Server" Collapsed="true">
     <Position X="39" Y="7.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
@@ -317,7 +317,7 @@
   <Class Name="WpfApp15.Scripts.Model.Program.AudioModel" Collapsed="true">
     <Position X="17" Y="4.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AEABAAAgAAAABEAAAAgAAAAIAIAIAAQAKAAAAAAAAUA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Scripts\Model\Program\AudioModel.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -460,7 +460,7 @@
   <Class Name="WpfApp15.Model.Program.ModelLogin" Collapsed="true">
     <Position X="5.75" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAAAAAAAEAiAAAAAAAAAAAAAAAABAAEAAACAAAgA=</HashCode>
+      <HashCode>AAACAAAAAAAEAiAAAgAAAAAAAAAAAABAAEAAACAAAgA=</HashCode>
       <FileName>Scripts\Model\Program\ModelLogin.cs</FileName>
     </TypeIdentifier>
   </Class>

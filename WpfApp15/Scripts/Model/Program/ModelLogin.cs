@@ -27,18 +27,20 @@ namespace WpfApp15.Model.Program
         public bool exit { get; set; }
         static string[] Scopes = { DriveService.Scope.Drive };
         static string ApplicationName = "App";
+        static string credPath;
         public static DriveService service;
         private async Task AutorizeAsync()
         {
             try
             {
-                UserCredential credential = GetCredentials();
-                service = new DriveService(new BaseClientService.Initializer()
-                {
-                    HttpClientInitializer = credential,
-                    ApplicationName = ApplicationName,
-                });
-                 
+                credPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+                credPath = Path.Combine(credPath, ".credentials/drive-dotnet-quickstart.json");
+                    UserCredential credential = GetCredentials();
+                    service = new DriveService(new BaseClientService.Initializer()
+                    {
+                        HttpClientInitializer = credential,
+                        ApplicationName = ApplicationName,
+                    });             
                 var fluentMainWindow = Activator.CreateInstance<MainMenu>();
                 fluentMainWindow.Show();
                 fluentMainWindow.Activate();
@@ -56,19 +58,17 @@ namespace WpfApp15.Model.Program
                     }
                 }
             }
-            catch (Exception)
+            catch (Exception er)
             {
-
+                
             }
         }
 
         private static UserCredential GetCredentials()
         {
             UserCredential credential;
-            using (var stream = new FileStream("credentials.json", FileMode.Open, FileAccess.Read))
+            using (var stream = new FileStream("../../credentials.json", FileMode.Open, FileAccess.Read))
             {
-                string credPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-                credPath = Path.Combine(credPath, ".credentials/drive-dotnet-quickstart.json");
                 credential = GoogleWebAuthorizationBroker.AuthorizeAsync(
                     GoogleClientSecrets.Load(stream).Secrets,
                     Scopes,

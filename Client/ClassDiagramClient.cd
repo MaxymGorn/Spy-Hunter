@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VanillaRatStub.ClientSettings" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAEAAAAAAAACgEAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClientSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Forms.Chat" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAACAAgAAAAACAgAASAAAAAAAAAIAIAQAAAFA=</HashCode>
+      <FileName>Forms\Chat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Forms.InitialForm" Collapsed="true">
+    <Position X="13" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKQgZiJAUmIQAgkMIIGAhiqCCRDQIBIAAUUEoQXEBAw=</HashCode>
+      <FileName>Forms\InitialForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Forms.ScreenLock" Collapsed="true">
+    <Position X="3.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAiAAAACAAAAAAAAAAIAAAABAAA=</HashCode>
+      <FileName>Forms\ScreenLock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.IScreenLocker" Collapsed="true">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\IScreenLocker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Information.ComputerInfo" Collapsed="true">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIGAAQAAAAAA0AgAAAAAAAAAAEAAAYgEAAAABIA=</HashCode>
+      <FileName>Helpers\Information\ComputerInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Information.GeoInfo" Collapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAEgCgAAAAIgAAACAAAAApAQAAgAAAAAAAAIAA=</HashCode>
+      <FileName>Helpers\Information\GeoInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Networking" Collapsed="true">
+    <Position X="14.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Networking\Networking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Telepathy.Client" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAACBQAACAEAAAIAAAAAACAAAAIAABAEAAAA=</HashCode>
+      <FileName>Helpers\Networking\Telepathy\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Telepathy.Common" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIIAAAAEAAAgAgAACAAgAAAghQAAAAAA=</HashCode>
+      <FileName>Helpers\Networking\Telepathy\Common.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Telepathy.Logger" Collapsed="true">
+    <Position X="14.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAIAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Networking\Telepathy\Logger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Telepathy.Message" Collapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAIAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Helpers\Networking\Telepathy\Message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Telepathy.NetworkStreamExtensions" Collapsed="true">
+    <Position X="16.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Helpers\Networking\Telepathy\NetworkStreamExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Telepathy.SafeQueue&lt;T&gt;" Collapsed="true">
+    <Position X="16.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAABAAAAAAAAAAJAAAQAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Helpers\Networking\Telepathy\SafeQueue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Telepathy.Server" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAFAAAEAAAAAgAIAAQAEgIAAIAAAAAAA=</HashCode>
+      <FileName>Helpers\Networking\Telepathy\Server.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Telepathy.Utils" Collapsed="true">
+    <Position X="11.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Helpers\Networking\Telepathy\Utils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.AntiProcess" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAEAgCACAAAAIIEAAAAACAIAAAAAAAAEgAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Services\AntiProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.Keylogger" Collapsed="true">
+    <Position X="11.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABACAAGACgDAACASAAAAAAAAIAAAEgACI=</HashCode>
+      <FileName>Helpers\Services\Keylogger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.RemoteShellStream" Collapsed="true">
+    <Position X="13" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAIABIAAgAAEAAAAAAAIAAQAAAAAAA=</HashCode>
+      <FileName>Helpers\Services\StreamClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.KeyloggerStream" Collapsed="true">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAAAAAAAAAAAAAAAAAIAAAAIAAAAIABAAA=</HashCode>
+      <FileName>Helpers\Services\StreamClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.HardwareUsageStream" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAgAAAAAAAQAAAAgAAIAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Services\StreamClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.RemoteDesktopStream" Collapsed="true">
+    <Position X="11.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAIAAAAEAAAACgQAgAAAAIAIAAAAAAAA=</HashCode>
+      <FileName>Helpers\Services\StreamClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.InputSimulator.InputBuilder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>0AAAQAAACAkAABBAGiAARCAAAQAAMBAEEAQAAARAAAA=</HashCode>
+      <FileName>Helpers\Services\InputSimulator\InputBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.InputSimulator.InputSimulator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAQAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Services\InputSimulator\InputSimulator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.InputSimulator.KeyboardSimulator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgTAAgAAAQAgBAAAAAACAAAQAAAAAAAACAAA=</HashCode>
+      <FileName>Helpers\Services\InputSimulator\KeyboardSimulator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.InputSimulator.MouseSimulator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAgBgAQAAAAgIQIEBEAIAAAIAAEkQAAAQAAACAQg=</HashCode>
+      <FileName>Helpers\Services\InputSimulator\MouseSimulator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.InputSimulator.WindowsInputDeviceStateAdaptor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAIBAAAAAAAAAQAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Helpers\Services\InputSimulator\WindowsInputDeviceStateAdaptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.InputSimulator.WindowsInputMessageDispatcher" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Services\InputSimulator\WindowsInputMessageDispatcher.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.InputSimulator.Native.NativeMethods" Collapsed="true">
+    <Position X="13" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAA=</HashCode>
+      <FileName>Helpers\Services\InputSimulator\Native\NativeMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.StreamLibrary.IUnsafeCodec" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAKAAAABAAEAISAAAAAAAAAQAAAAAAIAAAAAAGAAAA=</HashCode>
+      <FileName>Helpers\Services\StreamLibrary\IUnsafeCodec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.StreamLibrary.IVideoCodec" Collapsed="true">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIAAAABAAEAIIAAAAAAAAAQAAAAAAIAAAACAGAAAA=</HashCode>
+      <FileName>Helpers\Services\StreamLibrary\IVideoCodec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.StreamLibrary.src.CRC32" Collapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEBgAAAAAABCAQAAAAAAAAACIAAAMAAAAAAAKgAAAAA=</HashCode>
+      <FileName>Helpers\Services\StreamLibrary\src\CRC32.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.StreamLibrary.src.Extensions" Collapsed="true">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Services\StreamLibrary\src\Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.StreamLibrary.src.FastBitmap" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAARCBIQBCAECACAIIAACECIBAAAAQAABAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Services\StreamLibrary\src\FastBitmap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.StreamLibrary.src.ArrayOffset" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAQAAAAAEAAAACAAQAAAAAAAAAAYAA=</HashCode>
+      <FileName>Helpers\Services\StreamLibrary\src\FastBitmap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.StreamLibrary.src.JpgCompression" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABBAAAAAAAAAAAAAAAAAAAAABEAEAAAAAAAA=</HashCode>
+      <FileName>Helpers\Services\StreamLibrary\src\JpgCompression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.StreamLibrary.src.LzwCompression" Collapsed="true">
+    <Position X="16.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABBAAAAAAAAAAAAAAAAAAAAABEAEAAAAAAAA=</HashCode>
+      <FileName>Helpers\Services\StreamLibrary\src\LzwCompression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.StreamLibrary.src.MurmurHash2Unsafe" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgABAAAAAAA=</HashCode>
+      <FileName>Helpers\Services\StreamLibrary\src\MurmurHash2Unsafe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.StreamLibrary.src.NativeMethods" Collapsed="true">
+    <Position X="11.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Helpers\Services\StreamLibrary\src\NativeMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.StreamLibrary.src.PayloadWriter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAADBAACBAAgAAAARAQAAAACIgBCACAAAAAAA=</HashCode>
+      <FileName>Helpers\Services\StreamLibrary\src\PayloadWriter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.StreamLibrary.src.PointerHelper" Collapsed="true">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAIAAAAAAAAAIgAAAAAAAgAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Helpers\Services\StreamLibrary\src\PointerHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.StreamLibrary.src.SafeQuickLZ" Collapsed="true">
+    <Position X="6" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MIAAEFAIgAAAAAAAQAAAEAAIgAACEAAAAAAAAFAEAAE=</HashCode>
+      <FileName>Helpers\Services\StreamLibrary\src\SafeQuickLZ.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.StreamLibrary.src.SimpleBitmap" Collapsed="true">
+    <Position X="9.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAQQAAgACAACAAEAAAAAAAAAAAACAAAggDAAEAAAAA=</HashCode>
+      <FileName>Helpers\Services\StreamLibrary\src\SimpleBitmap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Runtime.CompilerServices.ExtensionAttribute" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Services\StreamLibrary\src\ExtensionAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VanillaStub.Helpers.Services.StreamLibrary.UnsafeCodecs.UnsafeStreamCodec" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIAAAAJABEAAAAAAAAAAAAQAAAAACIAABACAGAAAA=</HashCode>
+      <FileName>Helpers\Services\StreamLibrary\UnsafeCodecs\UnsafeStreamCodec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maxsgorn.Program" Collapsed="true">
+    <Position X="9.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.Properties.Resources" Collapsed="true">
+    <Position X="14.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.Properties.Settings" Collapsed="true">
+    <Position X="7.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAACgABAAAAEAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="VanillaStub.Helpers.Services.PROCESSENTRY32" Collapsed="true">
+    <Position X="14.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAIAAAAAAABQAASAAgAAEgAAQAAAA=</HashCode>
+      <FileName>Helpers\Services\AntiProcess.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="VanillaStub.Helpers.Services.InputSimulator.Native.HARDWAREINPUT" Collapsed="true">
+    <Position X="6" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Services\InputSimulator\Native\HARDWAREINPUT.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="VanillaStub.Helpers.Services.InputSimulator.Native.INPUT" Collapsed="true">
+    <Position X="7.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAQAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Services\InputSimulator\Native\INPUT.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="VanillaStub.Helpers.Services.InputSimulator.Native.KEYBDINPUT" Collapsed="true">
+    <Position X="9.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAACQA=</HashCode>
+      <FileName>Helpers\Services\InputSimulator\Native\KEYBDINPUT.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="VanillaStub.Helpers.Services.InputSimulator.Native.MOUSEINPUT" Collapsed="true">
+    <Position X="11.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAhAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAYQA=</HashCode>
+      <FileName>Helpers\Services\InputSimulator\Native\MOUSEINPUT.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="VanillaStub.Helpers.Services.InputSimulator.Native.MOUSEKEYBDHARDWAREINPUT" Collapsed="true">
+    <Position X="13" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAQACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Services\InputSimulator\Native\MOUSEKEYBDHARDWAREINPUT.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="VanillaStub.Helpers.Services.InputSimulator.IInputDeviceStateAdaptor" Collapsed="true">
+    <Position X="6" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAIBAAAAAAAAAQAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Helpers\Services\InputSimulator\IInputDeviceStateAdaptor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VanillaStub.Helpers.Services.InputSimulator.IInputMessageDispatcher" Collapsed="true">
+    <Position X="7.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Services\InputSimulator\IInputMessageDispatcher.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VanillaStub.Helpers.Services.InputSimulator.IInputSimulator" Collapsed="true">
+    <Position X="9.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAQAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Services\InputSimulator\IInputSimulator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VanillaStub.Helpers.Services.InputSimulator.IKeyboardSimulator" Collapsed="true">
+    <Position X="11.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAARAAgAAAQAgAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Services\InputSimulator\IKeyboardSimulator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VanillaStub.Helpers.Services.InputSimulator.IMouseSimulator" Collapsed="true">
+    <Position X="13" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAgBgAQAAAAgIAAEAEAIAAAIAAEkQAAAQAAAAAQg=</HashCode>
+      <FileName>Helpers\Services\InputSimulator\IMouseSimulator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="VanillaStub.Helpers.DataType" Collapsed="true">
+    <Position X="7.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAAAhAIAEIEAAABAAAQABAhAAAAAACEgAAAICAAAYA=</HashCode>
+      <FileName>Helpers\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VanillaStub.Helpers.Telepathy.EventType" Collapsed="true">
+    <Position X="9.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAABAAAAAAAgAAAAA=</HashCode>
+      <FileName>Helpers\Networking\Telepathy\EventType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VanillaStub.Helpers.Services.InputSimulator.MouseButton" Collapsed="true">
+    <Position X="14.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAABAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Services\InputSimulator\MouseButton.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VanillaStub.Helpers.Services.InputSimulator.Native.InputType" Collapsed="true">
+    <Position X="11.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAQACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Services\InputSimulator\Native\InputType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VanillaStub.Helpers.Services.InputSimulator.Native.KeyboardFlag" Collapsed="true">
+    <Position X="13" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAQAAAAAAQAAAgAAAAAAA=</HashCode>
+      <FileName>Helpers\Services\InputSimulator\Native\KeyboardFlag.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VanillaStub.Helpers.Services.InputSimulator.Native.MouseFlag" Collapsed="true">
+    <Position X="16.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hACACEAAAIBAAAAAAAACAAAAAAAAoCAAEAAAACAAAAA=</HashCode>
+      <FileName>Helpers\Services\InputSimulator\Native\MouseFlag.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VanillaStub.Helpers.Services.InputSimulator.Native.VirtualKeyCode" Collapsed="true">
+    <Position X="6" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>fwTDbACRIqDA/5vMkSAIwAukggZ2sTp7AtBO+f+/w/8=</HashCode>
+      <FileName>Helpers\Services\InputSimulator\Native\VirtualKeyCode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VanillaStub.Helpers.Services.InputSimulator.Native.XButton" Collapsed="true">
+    <Position X="7.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Services\InputSimulator\Native\XButton.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VanillaStub.Helpers.Services.StreamLibrary.CodecOption" Collapsed="true">
+    <Position X="6" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAEAAAAAEAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Helpers\Services\StreamLibrary\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

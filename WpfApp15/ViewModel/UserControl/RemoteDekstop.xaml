@@ -26,59 +26,34 @@
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="{x:Type Window}">
-                        <!-- Outer border with the drop shadow margin -->
                         <Border Padding="{Binding OuterMarginSize, FallbackValue=0}" BorderBrush="{StaticResource ForegroundDarkBrush}" BorderThickness="{Binding FlatBorderThickness}">
-
-                            <!-- Main window outline -->
                             <Grid>
-
-                                <!-- Outer dragging border -->
                                 <Border BorderThickness="{Binding BeingMoved, Converter={local11:BooleanToBorderThicknessConverter}}"
                                         Panel.ZIndex="2"
                                         CornerRadius="{Binding WindowCornerRadius, FallbackValue=10}"
                                         BorderBrush="{StaticResource WordOrangeBrush}" />
-                                <!-- Opacity mask for corners on grid -->
                                 <Border x:Name="Container"
                                         Background="{StaticResource BackgroundLightBrush}"
                                         CornerRadius="{Binding WindowCornerRadius, FallbackValue=10}" />
-
-                                <!-- Window border and drop shadow -->
                                 <Border CornerRadius="{Binding WindowCornerRadius, FallbackValue=10}"
                                     Background="{StaticResource ForegroundLightBrush}">
                                     <Border.Effect>
                                         <DropShadowEffect ShadowDepth="0.5" Opacity="0.2" />
                                     </Border.Effect>
                                 </Border>
-
-                                <!-- The main window content -->
                                 <Grid>
-
-                                    <!-- Corner clipping -->
                                     <Grid.OpacityMask>
                                         <VisualBrush Visual="{Binding ElementName=Container}" />
                                     </Grid.OpacityMask>
-
                                     <Grid.RowDefinitions>
-
-                                        <!-- Title Bar -->
                                         <RowDefinition Height="{Binding TitleHeightGridLength, FallbackValue=42}" />
-
-                                        <!-- Window Content -->
                                         <RowDefinition Height="*" />
-
                                     </Grid.RowDefinitions>
-
-                                    <!-- Title Bar -->
                                     <Grid Grid.Column="0"  Background="{DynamicResource btn_2}">
-
                                         <Grid.ColumnDefinitions>
-                                            <!-- Icon -->
                                             <ColumnDefinition Width="355*"  />
-                                            <!-- Title -->
                                             <ColumnDefinition Width="231*"  />
-                                            <!-- Windows Button -->
                                             <ColumnDefinition x:Name="col1"  MinWidth="263.2" Width="431*" />
-
                                         </Grid.ColumnDefinitions>
                                         <StackPanel WindowChrome.IsHitTestVisibleInChrome="True" HorizontalAlignment="Left"  Grid.Column="1" Background="Transparent" Orientation="Horizontal" Grid.ColumnSpan="2" Margin="22.8,0,0,-0.4" Width="536">
                                             <TextBlock Foreground="White" Text="Удаленный рабочий стол" Margin="10,0"  VerticalAlignment="Center" FontSize="20" FontFamily="Goudy Stout"/>
@@ -110,7 +85,6 @@
                                             </StackPanel>
                                         </Grid>
                                     </Grid>
-                                    <!-- Page Content -->
                                     <Border Grid.Row="1" Padding="{Binding InnerContentPadding}" ClipToBounds="True">
                                         <ContentPresenter Content="{TemplateBinding Content}" />
                                     </Border>
