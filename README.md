@@ -1,5 +1,6 @@
 # Spy-Hunter
-[![Watch the video](https://i.ibb.co/TbQbTKB/1.png)](https://youtu.be/FEs5SeqTJFY)
+[![Watch the video](https://www.pngitem.com/pimgs/m/528-5288626_click-to-watch-video-hd-png-download.png)](https://youtu.be/FEs5SeqTJFY)
+![alt text](https://i.ibb.co/TbQbTKB/1.png)
 ![alt text](https://i.ibb.co/vVVjt6y/Screenshot-2.png)
 Описание проекта. Spy Hunter –  уникальная бесплатная клиент/серверная программа с потрясающим дизайном для удаленного мониторинга с полностью открытым исходным журналом нажатия клавиш пользователя ПК. Которая позволяет захватывать и записывать весь вход экрана в файл активности базы данных, загружать файл на Google Drive. 
 Важные функции:
