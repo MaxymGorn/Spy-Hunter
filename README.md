@@ -89,8 +89,5 @@ API: Google drive
 
 Диаграма Ганта
 ![alt text](https://i.ibb.co/Wfv7ZdC/2.png)
-Trello: 
-Заказчик:						Исполнитель:
-
-Gorn Studio						Maxs Gornytskiy
+Trello: https://trello.com/gornstudio
 
